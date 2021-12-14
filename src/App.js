@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Phone from "./components/Phone";
+import "./css/style.css";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" >
+     
+    
+        <div className="decor decor-left"></div>
+        <div className="decor decor-bottom"></div>
+    
+
+      
+     
+      <main>
+     
+        <Phone></Phone> 
+
+            <div className="hero-text">
+              <div className="title">Simple booking</div>
+              <div className="subtitle">stay in ouch with our do walkers through the chat interface. This makes it easy to discuss arrangments and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat. </div>
+            </div>
+            
+     
+
+      </main>
+
     </div>
   );
 }
